@@ -2,38 +2,30 @@
 
 Fast Bug Bounty Recon Framework built for quick reconnaissance and manual vulnerability hunting.
 
+## Demo
+
+### Recon Started
+
+![CRYST Recon Start](screenshots/start.png)
+
+### Recon Completed
+
+![CRYST Recon Complete](screenshots/complete.png)
+
+---
+
 ## Features
 
-* Subdomain Enumeration
-
-  * Subfinder
-  * Assetfinder
-
-* Live Host Detection
-
-  * Httpx
-
-* URL Collection
-
-  * Katana
-  * Gau
-  * Waybackurls
-
-* Parameter Extraction
-
-* JavaScript Discovery
-
-* Sensitive File Discovery
-
-* GF Pattern Matching
-
-  * XSS
-  * SQLi
-  * SSRF
-  * LFI
-  * Open Redirect
-
-* Runtime Statistics
+| Feature                  | Tool                           |
+| ------------------------ | ------------------------------ |
+| Subdomain Enumeration    | Subfinder, Assetfinder         |
+| Live Host Detection      | Httpx                          |
+| URL Collection           | Katana, Gau, Waybackurls       |
+| Parameter Extraction     | Built-in                       |
+| JavaScript Discovery     | Built-in                       |
+| Sensitive File Discovery | Built-in                       |
+| GF Pattern Matching      | XSS, SQLi, SSRF, LFI, Redirect |
+| Runtime Statistics       | Built-in                       |
 
 ---
 
@@ -86,9 +78,9 @@ go install github.com/tomnomnom/gf@latest
 ## Usage
 
 ```bash
-chmod +x PowerRecon.sh
+chmod +x CRYST-Recon.sh
 
-./PowerRecon.sh example.com
+./CRYST-Recon.sh example.com
 ```
 
 ---
@@ -111,29 +103,31 @@ gf-results/
 
 ## Workflow
 
+```text
 CRYST
-
-↓ Subfinder
-
-↓ Assetfinder
-
-↓ Httpx
-
-↓ Katana
-
-↓ Gau
-
-↓ Waybackurls
-
-↓ Parameter Extraction
-
-↓ JavaScript Extraction
-
-↓ Sensitive File Discovery
-
-↓ GF Pattern Matching
-
-↓ Manual Testing
+  ↓
+Subfinder
+  ↓
+Assetfinder
+  ↓
+Httpx
+  ↓
+Katana
+  ↓
+Gau
+  ↓
+Waybackurls
+  ↓
+Parameter Extraction
+  ↓
+JavaScript Discovery
+  ↓
+Sensitive File Discovery
+  ↓
+GF Pattern Matching
+  ↓
+Manual Testing
+```
 
 ---
 
@@ -145,4 +139,6 @@ This tool is intended for authorized security testing, bug bounty programs, and 
 
 ## Author
 
-Tilaksingh Rana (CRYST)
+**Tilaksingh Rana (CRYST)**
+
+GitHub: https://github.com/IamTilakk
