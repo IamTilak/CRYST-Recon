@@ -141,4 +141,4 @@ This tool is intended for authorized security testing, bug bounty programs, and 
 
 **Tilaksingh Rana (CRYST)**
 
-GitHub: https://github.com/IamTilakk
+GitHub: https://github.com/IamTilak
